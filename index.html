@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LA Cleaning Services</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      
+      header {
+        background-color: #f7f7f7;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      h1, h2, h3 {
+        margin-top: 0;
+      }
+      
+      h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      nav ul li {
+        margin-right: 20px;
+      }
+      
+      nav ul li a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      nav ul li a:hover {
+        color: #c70039;
+      }
+      
+      #hero {
+        background-image: url("https://images.unsplash.com/photo-1565776656130-79517d3e2cf1");
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+      }
+      
+      #hero h2 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      
+      #hero p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      
+      .cta {
+        background-color: #c70039;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      .cta:hover {
+        background-color: #ff5733;
+      }
+      
+      section {
+        padding: 50px;
+        background-color: #f7f7f7;
+      }
+      
+      section h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      
+      section ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      section li {
+        margin-bottom: 10px;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+      iframe {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LA Cleaning Services</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="hero">
+      <h2>Professional Cleaning Services in Los Angeles</h2>
+      <p>We provide high-quality cleaning services for your home or office. Contact us today to learn more.</p>
+      <a href="#contact" class="cta">Contact Us</a>
+    </section>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>LA Cleaning Services is a family-owned and operated cleaning company serving the greater Los Angeles area. With over 10 years of experience, we have built a reputation for providing top-quality cleaning services at affordable prices.</p>
+      <ul>
+        <li>Residential cleaning</li>
+        <li>Office cleaning</li>
+        <li>Move-in/move-out cleaning</li>
+        <li>Post-construction cleaning</li>
+      </ul>
+    </section>
+    
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Residential cleaning: We offer deep cleaning and regular cleaning services for your home, including kitchens, bathrooms, bedrooms, and living areas.</li>
+        <li>Office cleaning: We provide commercial cleaning services for offices, medical facilities, and other business spaces.</li>
+        <li>Move-in/move-out cleaning: Whether you're moving in or moving out, we can help with our comprehensive move-in/move-out cleaning services.</li>
+        <li>Post-construction cleaning: We can help clean up your space after a construction or remodeling project.</li>
+      </ul>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSddP3Q2_ae5_5x5ZiOYfvykDGN1QQWVRaXUIyFmd_SkwwqN5Q/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="entry.2005620554" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="entry.1045781291" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="entry.1166974658" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="entry.839337160" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 LA Cleaning Services</p>
+    </footer>
+  </body>
+</html>
